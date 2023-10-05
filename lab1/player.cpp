@@ -7,8 +7,6 @@ Player::Player(int health, int score) {
     }
     this->health = health;
     this->score = score;
-    this->x = 0;
-    this->y = 0;
 }
 
 int Player::getHealth() const{
@@ -17,14 +15,6 @@ int Player::getHealth() const{
 
 int Player::getScore() const{
     return this->score;
-}
-
-int Player::getX() const{
-    return this->x;
-}
-
-int Player::getY() const{
-    return this->y;
 }
 
 void Player::setScore(int score){
@@ -44,21 +34,3 @@ void Player::setHealth(int health){
         this->score = score;
     }
 }
-
-void Player::setX(int x){
-    if(x < 0){
-        this->x =0;
-    }
-    else{
-        this->x = x; 
-    }
-}
-
-void Player::setY(int y){
-    if(y < 0){
-        this->y = 0;
-    }
-    else{
-        this->y = y; 
-    }
-}   

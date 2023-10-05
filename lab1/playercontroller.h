@@ -8,21 +8,24 @@ enum class Direction {
     RIGHT
 };
 
-class playercontroller {
+class Playercontroller {
 private:
+    int x, y = 0;
     Player& player;
 public:
-    playercontroller(Player& p);
+    Playercontroller(Player& p);
 
     void move(Direction direction);
 
     void getScore(int score);
 
     void getHealth(int health);
+
+    void showCoords();
     
     void stats();
     
-    ~playercontroller() = default;
+    ~Playercontroller() = default;
 };
 
 #endif
