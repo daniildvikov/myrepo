@@ -24,6 +24,8 @@ public:
     void getHealth(int health);
 
     void showCoords();
+
+    void printField();
     
     void stats();
     

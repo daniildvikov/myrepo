@@ -2,6 +2,8 @@
 #define gamefield_hpp
 #define D_WIDTH 15
 #define D_HEIGHT 15
+#define MIN_SIZE 2
+#define MAX_SIZE 101
 #include <iostream>
 #include "Cell.hpp"
 
@@ -19,7 +21,6 @@ public:
     Cell& getCell(int x, int y);
     ~Gamefield();
     int checkCoords(std::pair<int,int> start,std::pair<int,int> finish ,int value) const;
-    void printField();
     int getWidth() const;
     int getHeight() const;
     std::pair<int,int> getStart() const;

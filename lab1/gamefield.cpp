@@ -1,8 +1,9 @@
 #include <iostream>
 #include "gamefield.hpp"
 #include "playercontroller.hpp"
+
 Gamefield::Gamefield(int width, int height){
-    if (width > 2 && width < 60 && height > 2 && height < 60) {
+    if (width > MIN_SIZE && width < MAX_SIZE && height > MIN_SIZE && height < MAX_SIZE) {
         this->width = width;
         this->height = height;
     }
@@ -60,22 +61,6 @@ Cell& Gamefield::getCell(int x, int y) {
         throw std::out_of_range("За поле вышел");
     }
 }
-
-void Gamefield::printField(){
-    for(int i = 0; i < height; i++){
-        for(int j = 0; j < width; j++){
-            if (i == start.second && j == start.first) {
-                std::cout << 'S' << ' ';
-            } else if (i == finish.second && j == finish.first) {
-                std::cout << 'F' << ' ';
-            } else {
-                std::cout << (gamefield[i][j].getCellPassible() ? '1' : '0') << ' ';
-            }
-        }
-        std::cout << '\n';
-    }
-}
-
 
 int Gamefield::checkCoords(std::pair<int,int> start, std::pair<int,int> finish, int value) const {return start.first >= 0 && start.first < value && start.second >= 0 && start.second < value; }
 int Gamefield::getWidth() const { return this->width; }
