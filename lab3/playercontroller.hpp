@@ -44,6 +44,8 @@ public:
 
     bool check(int x, int y);
 
+    void startGame();
+
     ~Playercontroller() = default;
 };
 

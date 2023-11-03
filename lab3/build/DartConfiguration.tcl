@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/oop/lab3
-BuildDirectory: C:/oop/lab3/build
+SourceDirectory: C:/OOP/myself-main/lab3
+BuildDirectory: C:/OOP/myself-main/lab3/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: DESKTOP-89UCU8F
+Site: danyadv
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-mingw32-make
@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/oop/lab3"
-MakeCommand: C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/OOP/myself-main/lab3"
+MakeCommand: C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -64,7 +64,7 @@ UpdateType:
 
 # Compiler info
 Compiler: C:/msys64/mingw64/bin/g++.exe
-CompilerVersion: 12.2.0
+CompilerVersion: 12.1.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

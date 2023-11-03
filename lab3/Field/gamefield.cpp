@@ -51,7 +51,7 @@ Cell& Gamefield::getCell(int x, int y) {
     if (x >= 0 && x < width && y >= 0 && y < height) {
         return gamefield[x][y];
     } else {
-        throw std::out_of_range("За поле вышел");
+        throw std::out_of_range("Za pole vishel");
     }
 }
 

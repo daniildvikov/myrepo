@@ -1,72 +1,72 @@
 [
 {
-  "directory": "C:/oop/lab3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\main.cpp.obj -c C:\\oop\\lab3\\main.cpp",
-  "file": "C:/oop/lab3/main.cpp"
+  "directory": "C:/OOP/myself-main/lab3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\main.cpp.obj -c C:\\OOP\\myself-main\\lab3\\main.cpp",
+  "file": "C:/OOP/myself-main/lab3/main.cpp"
 },
 {
-  "directory": "C:/oop/lab3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\player.cpp.obj -c C:\\oop\\lab3\\player.cpp",
-  "file": "C:/oop/lab3/player.cpp"
+  "directory": "C:/OOP/myself-main/lab3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\player.cpp.obj -c C:\\OOP\\myself-main\\lab3\\player.cpp",
+  "file": "C:/OOP/myself-main/lab3/player.cpp"
 },
 {
-  "directory": "C:/oop/lab3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\playercontroller.cpp.obj -c C:\\oop\\lab3\\playercontroller.cpp",
-  "file": "C:/oop/lab3/playercontroller.cpp"
+  "directory": "C:/OOP/myself-main/lab3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\playercontroller.cpp.obj -c C:\\OOP\\myself-main\\lab3\\playercontroller.cpp",
+  "file": "C:/OOP/myself-main/lab3/playercontroller.cpp"
 },
 {
-  "directory": "C:/oop/lab3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\Field\\cell.cpp.obj -c C:\\oop\\lab3\\Field\\cell.cpp",
-  "file": "C:/oop/lab3/Field/cell.cpp"
+  "directory": "C:/OOP/myself-main/lab3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\Field\\cell.cpp.obj -c C:\\OOP\\myself-main\\lab3\\Field\\cell.cpp",
+  "file": "C:/OOP/myself-main/lab3/Field/cell.cpp"
 },
 {
-  "directory": "C:/oop/lab3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\Field\\gamefield.cpp.obj -c C:\\oop\\lab3\\Field\\gamefield.cpp",
-  "file": "C:/oop/lab3/Field/gamefield.cpp"
+  "directory": "C:/OOP/myself-main/lab3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\Field\\gamefield.cpp.obj -c C:\\OOP\\myself-main\\lab3\\Field\\gamefield.cpp",
+  "file": "C:/OOP/myself-main/lab3/Field/gamefield.cpp"
 },
 {
-  "directory": "C:/oop/lab3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\HealEvent.cpp.obj -c C:\\oop\\lab3\\events\\HealEvent.cpp",
-  "file": "C:/oop/lab3/events/HealEvent.cpp"
+  "directory": "C:/OOP/myself-main/lab3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\HealEvent.cpp.obj -c C:\\OOP\\myself-main\\lab3\\events\\HealEvent.cpp",
+  "file": "C:/OOP/myself-main/lab3/events/HealEvent.cpp"
 },
 {
-  "directory": "C:/oop/lab3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\Field\\FieldBuilder.cpp.obj -c C:\\oop\\lab3\\Field\\FieldBuilder.cpp",
-  "file": "C:/oop/lab3/Field/FieldBuilder.cpp"
+  "directory": "C:/OOP/myself-main/lab3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\Field\\FieldBuilder.cpp.obj -c C:\\OOP\\myself-main\\lab3\\Field\\FieldBuilder.cpp",
+  "file": "C:/OOP/myself-main/lab3/Field/FieldBuilder.cpp"
 },
 {
-  "directory": "C:/oop/lab3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\PlayerEvent.cpp.obj -c C:\\oop\\lab3\\events\\PlayerEvent.cpp",
-  "file": "C:/oop/lab3/events/PlayerEvent.cpp"
+  "directory": "C:/OOP/myself-main/lab3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\PlayerEvent.cpp.obj -c C:\\OOP\\myself-main\\lab3\\events\\PlayerEvent.cpp",
+  "file": "C:/OOP/myself-main/lab3/events/PlayerEvent.cpp"
 },
 {
-  "directory": "C:/oop/lab3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Score.cpp.obj -c C:\\oop\\lab3\\events\\Score.cpp",
-  "file": "C:/oop/lab3/events/Score.cpp"
+  "directory": "C:/OOP/myself-main/lab3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Score.cpp.obj -c C:\\OOP\\myself-main\\lab3\\events\\Score.cpp",
+  "file": "C:/OOP/myself-main/lab3/events/Score.cpp"
 },
 {
-  "directory": "C:/oop/lab3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Enemy.cpp.obj -c C:\\oop\\lab3\\events\\Enemy.cpp",
-  "file": "C:/oop/lab3/events/Enemy.cpp"
+  "directory": "C:/OOP/myself-main/lab3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Enemy.cpp.obj -c C:\\OOP\\myself-main\\lab3\\events\\Enemy.cpp",
+  "file": "C:/OOP/myself-main/lab3/events/Enemy.cpp"
 },
 {
-  "directory": "C:/oop/lab3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Teleport.cpp.obj -c C:\\oop\\lab3\\events\\Teleport.cpp",
-  "file": "C:/oop/lab3/events/Teleport.cpp"
+  "directory": "C:/OOP/myself-main/lab3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Teleport.cpp.obj -c C:\\OOP\\myself-main\\lab3\\events\\Teleport.cpp",
+  "file": "C:/OOP/myself-main/lab3/events/Teleport.cpp"
 },
 {
-  "directory": "C:/oop/lab3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\FieldEvent.cpp.obj -c C:\\oop\\lab3\\events\\FieldEvent.cpp",
-  "file": "C:/oop/lab3/events/FieldEvent.cpp"
+  "directory": "C:/OOP/myself-main/lab3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\FieldEvent.cpp.obj -c C:\\OOP\\myself-main\\lab3\\events\\FieldEvent.cpp",
+  "file": "C:/OOP/myself-main/lab3/events/FieldEvent.cpp"
 },
 {
-  "directory": "C:/oop/lab3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Win.cpp.obj -c C:\\oop\\lab3\\events\\Win.cpp",
-  "file": "C:/oop/lab3/events/Win.cpp"
+  "directory": "C:/OOP/myself-main/lab3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Win.cpp.obj -c C:\\OOP\\myself-main\\lab3\\events\\Win.cpp",
+  "file": "C:/OOP/myself-main/lab3/events/Win.cpp"
 },
 {
-  "directory": "C:/oop/lab3/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Lose.cpp.obj -c C:\\oop\\lab3\\events\\Lose.cpp",
-  "file": "C:/oop/lab3/events/Lose.cpp"
+  "directory": "C:/OOP/myself-main/lab3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Lose.cpp.obj -c C:\\OOP\\myself-main\\lab3\\events\\Lose.cpp",
+  "file": "C:/OOP/myself-main/lab3/events/Lose.cpp"
 }
 ]
