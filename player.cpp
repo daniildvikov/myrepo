@@ -3,7 +3,7 @@
 
 Player::Player(int health, int score) {
     if (health < 0 || score < 0) {
-        throw std::runtime_error("Неверные значения для здоровья или счета");
+        throw std::runtime_error("Wrong health or score");
     }
     this->health = health;
     this->score = score;

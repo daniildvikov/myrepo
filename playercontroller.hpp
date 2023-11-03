@@ -38,7 +38,13 @@ public:
     
     void stats();
     
+    bool Win();
+
+    bool Lose();
+
     bool check(int x, int y);
+
+    void startGame();
 
     ~Playercontroller() = default;
 };

@@ -5,24 +5,21 @@
 #include "Field/FieldBuilder.hpp"
 int main() {
     try {
-        Gamefield gamefield(30,30);
+        Gamefield gamefield(10,10);
         gamefield.getCell(3,0).setCellPassible(false);
-        Player player(50, 0);
+        Player player(0, 0);
         Playercontroller controller(player, gamefield);
         FieldBuilder fb(gamefield, player, controller);
-        fb.buildField();
+        fb.buildField(2); // lvl 1 or 2
+        controller.startGame();
         controller.printField();
-        controller.move(Direction::RIGHT);
-        controller.move(Direction::RIGHT);
-        controller.move(Direction::RIGHT);
-        controller.move(Direction::RIGHT);
         controller.showCoords();
         controller.stats();
         std::cout << gamefield.getStart().first << " " << gamefield.getStart().second << " START\n";
         std::cout << gamefield.getExit().first << " " << gamefield.getExit().second << " FINISH\n";
         controller.printField();
     } catch (const std::runtime_error& e) {
-        std::cerr << "Ошибка: " << e.what() << std::endl;
+        std::cerr << "Out of range: " << e.what() << std::endl;
     }
 
     return 0;

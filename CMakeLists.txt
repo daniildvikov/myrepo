@@ -28,6 +28,10 @@ add_executable(lab3 main.cpp
         Events/Teleport.hpp
         Events/FieldEvent.cpp
         Events/FieldEvent.hpp
+        Events/Win.hpp
+        Events/Lose.hpp
+        Events/Win.cpp
+        Events/Lose.cpp
 )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
