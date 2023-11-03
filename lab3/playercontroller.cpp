@@ -33,8 +33,8 @@ void Playercontroller::move(Direction direction) {
             break;
     }
     Event* event = gameField.getCell(x,y).getEvent();
-    auto *p1 = dynamic_cast<PlayerEvent *>(event);
-    if(p1){
+    // auto *p1 = dynamic_cast<PlayerEvent *>(event);
+    if(event){
         event->triggerEvent();
         gameField.getCell(x,y).setEvent(nullptr);
     }
@@ -101,20 +101,21 @@ void Playercontroller::printField(){
 }
 
 void Playercontroller::showCoords(){
-    std::cout<< "Координата по х: " << this->x << "  Координата по y: " << this->y << std::endl;
+    std::cout<< "X: " << this->x << "  Y: " << this->y << std::endl;
 }
 
 void Playercontroller::stats(){
-    std::cout << "Ваше здоровье: " << player.getHealth() << std::endl;
-    std::cout << "Количество очков: " << player.getScore() << std::endl;
+    std::cout << "Health: " << player.getHealth() << std::endl;
+    std::cout << "Score: " << player.getScore() << std::endl;
 }
 
 bool Playercontroller::check(int x, int y){
     return (x >= 0 && x < this->gameField.getWidth() && y >= 0 && y < this->gameField.getHeight() && this->gameField.getCell(x, y).getCellPassible() == true);}
 
 bool Playercontroller::Win(){
-    if(player.getScore() >= 50 || (getX() == gameField.getExit().first && getY() == gameField.getExit().second)){
+    if(player.getScore() >= 20 || (getX() == gameField.getExit().first && getY() == gameField.getExit().second)){
         std::cout << "WIN URA URA";
+        exit(0);
         return true;
     }
     return false;
@@ -122,10 +123,58 @@ bool Playercontroller::Win(){
 
 bool Playercontroller::Lose(){
     if(player.getHealth() < 0 ){
-        std::cout << "LOSE";
-        x = 0;
-        y = 0;
+        std::cout << "LOSE, BACK TO START\n";
+        exit(0);
         return true;
     }
     return false;
+}
+
+void Playercontroller::startGame() {
+    this->printField();
+    char dir;
+    while (dir != 'q') {
+        std::cin >> dir;
+        switch (dir) {
+            case 'w':
+                move(Direction::UP);
+                showCoords();
+                stats();
+                printField();
+                Win();
+                Lose();
+                break;
+            case 's':
+                this->move(Direction::DOWN);
+                showCoords();
+                stats();
+                printField();
+                Win();
+                Lose();
+                break;
+            case 'a':
+                this->move(Direction::LEFT);
+                showCoords();
+                stats();
+                printField();
+                Win();
+                Lose();
+                break;
+            case 'd':
+                this->move(Direction::RIGHT);
+                showCoords();
+                stats();
+                printField();
+                Win();
+                Lose();
+                break;
+            case 'p':
+                showCoords();
+                stats();
+                printField();
+                Win();
+                Lose();
+                break;
+        }
+    }
 }
