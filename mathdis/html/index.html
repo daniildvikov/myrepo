@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SPA</title>
+</head>
+<body>
+    <h1>КОЛЛОВКИУМ</h1>
+    <div>
+        <label for="expression">Выражение:</label>
+        <input type="text" id="expression" placeholder="Введите выражение">
+    </div>
+    <div>
+        <label for="argument">Аргумент полинома:</label>
+        <input type="text" id="argument" placeholder="Введите аргумент (x)">
+    </div>
+    <div>
+        <label for="result">Результат:</label>
+        <input type="text" id="result" readonly>
+    </div>
+    <div>
+        <label for="factorize">Факторизация:</label>
+        <input type="checkbox" id="factorize" disabled>
+    </div>
+    <div>
+        <label for="reduce">Сокращение кратных корней:</label>
+        <input type="checkbox" id="reduce">
+    </div>
+    <div>
+        <button id="calculate">Вычислить</button>
+    </div>
+
+    <script>
+        const expressionInput = document.getElementById("expression");
+        const argumentInput = document.getElementById("argument");
+        const resultInput = document.getElementById("result");
+        const factorizeCheckbox = document.getElementById("factorize");
+        const reduceCheckbox = document.getElementById("reduce");
+        const calculateButton = document.getElementById("calculate");
+
+        expressionInput.addEventListener("input", function() {
+            // Активировать/деактивировать поле ввода аргумента
+            if (expressionInput.value.includes("x")) {
+                argumentInput.disabled = false;
+            } else {
+                argumentInput.disabled = true;
+                argumentInput.value = "";
+            }
+
+            // Проверка, можно ли активировать чек-бокс факторизации
+            factorizeCheckbox.disabled = argumentInput.value.trim() === "";
+        });
+
+        calculateButton.addEventListener("click", function() {
+            // Очистить результат
+            resultInput.value = "";
+
+            const expression = expressionInput.value.trim();
+            const argument = argumentInput.value.trim();
+            const shouldFactorize = factorizeCheckbox.checked;
+            const shouldReduce = reduceCheckbox.checked;
+
+            // Выполнить вычисления и обработку ошибок с помощью JavaScript
+
+            // Пример вычисления (замените на свой код)
+            if (expression && argument) {
+                try {
+                    const result = calculate(expression, argument, shouldFactorize, shouldReduce);
+                    resultInput.value = result;
+                } catch (error) {
+                    resultInput.value = `Ошибка: ${error.message}`;
+                }
+            }
+        });
+
+        // Функция для вычисления результата (замените на свой код)
+        function calculate(expression, argument, shouldFactorize, shouldReduce) {
+            // Реализуйте здесь логику вычисления выражения
+            // и факторизации/сокращения, если требуется
+            // Верните результат вычисления
+        }
+    </script>
+</body>
+</html>
