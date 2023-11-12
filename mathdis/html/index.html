@@ -1,83 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>SPA</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
 </head>
 <body>
-    <h1>КОЛЛОВКИУМ</h1>
-    <div>
-        <label for="expression">Выражение:</label>
-        <input type="text" id="expression" placeholder="Введите выражение">
-    </div>
-    <div>
-        <label for="argument">Аргумент полинома:</label>
-        <input type="text" id="argument" placeholder="Введите аргумент (x)">
-    </div>
-    <div>
-        <label for="result">Результат:</label>
-        <input type="text" id="result" readonly>
-    </div>
-    <div>
-        <label for="factorize">Факторизация:</label>
-        <input type="checkbox" id="factorize" disabled>
-    </div>
-    <div>
-        <label for="reduce">Сокращение кратных корней:</label>
-        <input type="checkbox" id="reduce">
-    </div>
-    <div>
-        <button id="calculate">Вычислить</button>
-    </div>
+    <h1>Calculator</h1>
+    <label for="expression">Р’С‹СЂР°Р¶РµРЅРёРµ:</label>
+    <input type="text" id="expression" placeholder="РІРІРµРґРёС‚Рµ РІС‹СЂР°Р¶РµРЅРёРµ">
+
+    <label for="argument">РђСЂРіСѓРјРµРЅС‚:</label>
+    <input type="text" id="argument" placeholder="Р’РІРµРґРёС‚Рµ Р°СЂРіСѓРјРµРЅС‚" disabled>
+
+    <label for="result">Р РµР·СѓР»СЊС‚Р°С‚:</label>
+    <input type="text" id="result" readonly>
+
+    <label for="factorize">Р¤Р°РєС‚РѕСЂРёР·Р°С†РёСЏ:</label>
+    <input type="checkbox" id="factorize" disabled>
+
+    <label for="reduceRoots">РЎРѕРєСЂР°С‰РµРЅРёРµ РєРѕСЂРЅРµР№:</label>
+    <input type="checkbox" id="reduceRoots" enabled>
+
+    <button onclick="calculate()">Calculate</button>
 
     <script>
-        const expressionInput = document.getElementById("expression");
-        const argumentInput = document.getElementById("argument");
-        const resultInput = document.getElementById("result");
-        const factorizeCheckbox = document.getElementById("factorize");
-        const reduceCheckbox = document.getElementById("reduce");
-        const calculateButton = document.getElementById("calculate");
+        function calculate() {
+            const expression = document.getElementById('expression').value;
+            const argument = document.getElementById('argument').value;
+            const factorize = document.getElementById('factorize').checked;
+            const reduceRoots = document.getElementById('reduceRoots').checked;
 
-        expressionInput.addEventListener("input", function() {
-            // Активировать/деактивировать поле ввода аргумента
-            if (expressionInput.value.includes("x")) {
-                argumentInput.disabled = false;
-            } else {
-                argumentInput.disabled = true;
-                argumentInput.value = "";
-            }
+            const data = {
+                expression: expression,
+                argument: argument,
+                factorize: factorize,
+                reduceRoots: reduceRoots
+            };
 
-            // Проверка, можно ли активировать чек-бокс факторизации
-            factorizeCheckbox.disabled = argumentInput.value.trim() === "";
-        });
 
-        calculateButton.addEventListener("click", function() {
-            // Очистить результат
-            resultInput.value = "";
-
-            const expression = expressionInput.value.trim();
-            const argument = argumentInput.value.trim();
-            const shouldFactorize = factorizeCheckbox.checked;
-            const shouldReduce = reduceCheckbox.checked;
-
-            // Выполнить вычисления и обработку ошибок с помощью JavaScript
-
-            // Пример вычисления (замените на свой код)
-            if (expression && argument) {
-                try {
-                    const result = calculate(expression, argument, shouldFactorize, shouldReduce);
-                    resultInput.value = result;
-                } catch (error) {
-                    resultInput.value = `Ошибка: ${error.message}`;
-                }
-            }
-        });
-
-        // Функция для вычисления результата (замените на свой код)
-        function calculate(expression, argument, shouldFactorize, shouldReduce) {
-            // Реализуйте здесь логику вычисления выражения
-            // и факторизации/сокращения, если требуется
-            // Верните результат вычисления
+            fetch('http://localhost:34568/calculate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('result').value = data.result;
+            })
+            .catch(error => {
+                alert('Error: ' + error.message);
+            });
         }
+        
+        document.getElementById('expression').addEventListener('input', function() {
+        const argumentField = document.getElementById('argument');
+        const factorizeCheckbox = document.getElementById('factorize');
+
+        if (!this.value.includes('x')) {
+            argumentField.disabled = true;
+            factorizeCheckbox.disabled = true;
+        } else {
+            argumentField.disabled = false;
+            factorizeCheckbox.disabled = !argumentField.value.trim();
+        }
+    });
+
+    document.getElementById('argument').addEventListener('input', function() {
+        const factorizeCheckbox = document.getElementById('factorize');
+        factorizeCheckbox.disabled = !this.value.trim();
+
+        // Р’Р°Р»РёРґР°С†РёСЏ РІРІРµРґРµРЅРЅРѕРіРѕ Р·РЅР°С‡РµРЅРёСЏ
+        const value = this.value.trim();
+        if (value && !isNumeric(value)) {
+            alert('РђСЂРіСѓРјРµРЅС‚ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ С‡РёСЃР»Рѕ');
+            this.value = '';
+        }
+    });
+
+    function isNumeric(str) {
+        if (typeof str != "string") return false 
+        return !isNaN(str) && 
+               !isNaN(parseFloat(str)) 
+    }
     </script>
 </body>
 </html>
