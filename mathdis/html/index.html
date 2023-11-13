@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <label for="expression">Выражение:</label>
+    <input type="text" id="expression" placeholder="введите выражение">
+
+    <label for="argument">Аргумент:</label>
+    <input type="text" id="argument" placeholder="Введите аргумент" disabled>
+
+    <label for="result">Результат:</label>
+    <input type="text" id="result" readonly>
+
+    <label for="factorize">Факторизация:</label>
+    <input type="checkbox" id="factorize" disabled>
+
+    <label for="reduceRoots">Сокращение корней:</label>
+    <input type="checkbox" id="reduceRoots" enabled>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <script>
+        function calculate() {
+            const expression = document.getElementById('expression').value;
+            const argument = document.getElementById('argument').value;
+            const factorize = document.getElementById('factorize').checked;
+            const reduceRoots = document.getElementById('reduceRoots').checked;
+
+            const data = {
+                expression: expression,
+                argument: argument,
+                factorize: factorize,
+                reduceRoots: reduceRoots
+            };
+
+
+            fetch('http://localhost:34568/calculate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('result').value = data.result;
+            })
+            .catch(error => {
+                alert('Error: ' + error.message);
+            });
+        }
+        
+        document.getElementById('expression').addEventListener('input', function() {
+        const argumentField = document.getElementById('argument');
+        const factorizeCheckbox = document.getElementById('factorize');
+
+        if (!this.value.includes('x')) {
+            argumentField.disabled = true;
+            factorizeCheckbox.disabled = true;
+        } else {
+            argumentField.disabled = false;
+            factorizeCheckbox.disabled = !argumentField.value.trim();
+        }
+    });
+
+    document.getElementById('argument').addEventListener('input', function() {
+        const factorizeCheckbox = document.getElementById('factorize');
+        factorizeCheckbox.disabled = !this.value.trim();
+
+        // Валидация введенного значения
+        const value = this.value.trim();
+        if (value && !isNumeric(value)) {
+            alert('Аргумент должен быть число');
+            this.value = '';
+        }
+    });
+
+    function isNumeric(str) {
+        if (typeof str != "string") return false 
+        return !isNaN(str) && 
+               !isNaN(parseFloat(str)) 
+    }
+    </script>
+</body>
+</html>
