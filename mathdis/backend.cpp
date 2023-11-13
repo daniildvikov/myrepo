@@ -55,7 +55,7 @@ public:
             bool reduceRoots = requestBody[U("reduceRoots")].as_bool();
             json::value responseBody;
             std::string alo = "posu";
-            responseBody[U("result")] = json::value::string(alo);
+            responseBody[U("result")] = json::value::string(expression);
             http_response response(status_codes::OK);
             response.set_body(responseBody);
             
