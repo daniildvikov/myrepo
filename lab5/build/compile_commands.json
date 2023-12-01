@@ -1,0 +1,97 @@
+[
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\main.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\main.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/main.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\player.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\player.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/player.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\playercontroller.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\playercontroller.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/playercontroller.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\Field\\cell.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\Field\\cell.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/Field/cell.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\Field\\gamefield.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\Field\\gamefield.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/Field/gamefield.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\HealEvent.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\events\\HealEvent.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/events/HealEvent.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\Field\\FieldBuilder.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\Field\\FieldBuilder.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/Field/FieldBuilder.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\Field\\PrintField.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\Field\\PrintField.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/Field/PrintField.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\PlayerEvent.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\events\\PlayerEvent.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/events/PlayerEvent.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Score.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\events\\Score.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/events/Score.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Enemy.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\events\\Enemy.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/events/Enemy.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Teleport.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\events\\Teleport.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/events/Teleport.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\FieldEvent.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\events\\FieldEvent.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/events/FieldEvent.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Win.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\events\\Win.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/events/Win.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\events\\Lose.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\events\\Lose.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/events/Lose.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\Game\\Game.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\Game\\Game.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/Game/Game.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\Game\\Input.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\Game\\Input.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/Game/Input.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\View\\GameObserver.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\View\\GameObserver.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/View/GameObserver.cpp"
+},
+{
+  "directory": "C:/Users/losto/myrepo/lab4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\lab3.dir\\View\\ConsoleView.cpp.obj -c C:\\Users\\losto\\myrepo\\lab4\\View\\ConsoleView.cpp",
+  "file": "C:/Users/losto/myrepo/lab4/View/ConsoleView.cpp"
+}
+]
