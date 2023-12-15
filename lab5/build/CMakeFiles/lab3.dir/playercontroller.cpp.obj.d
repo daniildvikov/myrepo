@@ -1,5 +1,5 @@
 CMakeFiles/lab3.dir/playercontroller.cpp.obj: \
- C:\Users\losto\myrepo\lab4\playercontroller.cpp \
+ C:\Users\losto\myrepo\lab5\playercontroller.cpp \
  C:/msys64/mingw64/include/c++/12.2.0/iostream \
  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -130,22 +130,22 @@ CMakeFiles/lab3.dir/playercontroller.cpp.obj: \
  C:/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/12.2.0/istream \
  C:/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
- C:\Users\losto\myrepo\lab4\Playercontroller.hpp \
- C:\Users\losto\myrepo\lab4\player.hpp \
- C:\Users\losto\myrepo\lab4\Field/gamefield.hpp \
- C:\Users\losto\myrepo\lab4\Field/Cell.hpp \
- C:/Users/losto/myrepo/lab4/events/Event.hpp \
- C:/Users/losto/myrepo/lab4/player.hpp \
+ C:\Users\losto\myrepo\lab5\Playercontroller.hpp \
+ C:\Users\losto\myrepo\lab5\player.hpp \
+ C:\Users\losto\myrepo\lab5\Field/gamefield.hpp \
+ C:\Users\losto\myrepo\lab5\Field/Cell.hpp \
+ C:/Users/losto/myrepo/lab5/events/Event.hpp \
+ C:/Users/losto/myrepo/lab5/player.hpp \
  C:/msys64/mingw64/include/c++/12.2.0/tuple \
  C:/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
- C:\Users\losto\myrepo\lab4\events/Score.hpp \
- C:\Users\losto\myrepo\lab4\events/PlayerEvent.hpp \
- C:\Users\losto\myrepo\lab4\events/Event.hpp \
- C:/Users/losto/myrepo/lab4/player.hpp \
- C:/Users/losto/myrepo/lab4/Player.hpp \
- C:\Users\losto\myrepo\lab4\events/Enemy.hpp \
- C:\Users\losto\myrepo\lab4\events/HealEvent.hpp \
- C:\Users\losto\myrepo\lab4\events/Teleport.hpp \
- C:\Users\losto\myrepo\lab4\events/FieldEvent.hpp \
- C:/Users/losto/myrepo/lab4/Playercontroller.hpp \
- C:/Users/losto/myrepo/lab4/Field/Gamefield.hpp
+ C:\Users\losto\myrepo\lab5\events/Score.hpp \
+ C:\Users\losto\myrepo\lab5\events/PlayerEvent.hpp \
+ C:\Users\losto\myrepo\lab5\events/Event.hpp \
+ C:/Users/losto/myrepo/lab5/player.hpp \
+ C:/Users/losto/myrepo/lab5/Player.hpp \
+ C:\Users\losto\myrepo\lab5\events/Enemy.hpp \
+ C:\Users\losto\myrepo\lab5\events/HealEvent.hpp \
+ C:\Users\losto\myrepo\lab5\events/Teleport.hpp \
+ C:\Users\losto\myrepo\lab5\events/FieldEvent.hpp \
+ C:/Users/losto/myrepo/lab5/Playercontroller.hpp \
+ C:/Users/losto/myrepo/lab5/Field/Gamefield.hpp

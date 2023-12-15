@@ -1,0 +1,3 @@
+C:/Users/losto/OOP/build/CMakeFiles/OOP.dir
+C:/Users/losto/OOP/build/CMakeFiles/edit_cache.dir
+C:/Users/losto/OOP/build/CMakeFiles/rebuild_cache.dir

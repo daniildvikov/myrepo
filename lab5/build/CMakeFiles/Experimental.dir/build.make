@@ -52,10 +52,10 @@ RM = "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Com
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\losto\myrepo\lab4
+CMAKE_SOURCE_DIR = C:\Users\losto\myrepo\lab5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\losto\myrepo\lab4\build
+CMAKE_BINARY_DIR = C:\Users\losto\myrepo\lab5\build
 
 # Utility rule file for Experimental.
 
@@ -81,6 +81,6 @@ CMakeFiles/Experimental.dir/clean:
 .PHONY : CMakeFiles/Experimental.dir/clean
 
 CMakeFiles/Experimental.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\losto\myrepo\lab4 C:\Users\losto\myrepo\lab4 C:\Users\losto\myrepo\lab4\build C:\Users\losto\myrepo\lab4\build C:\Users\losto\myrepo\lab4\build\CMakeFiles\Experimental.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\losto\myrepo\lab5 C:\Users\losto\myrepo\lab5 C:\Users\losto\myrepo\lab5\build C:\Users\losto\myrepo\lab5\build C:\Users\losto\myrepo\lab5\build\CMakeFiles\Experimental.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Experimental.dir/depend
 

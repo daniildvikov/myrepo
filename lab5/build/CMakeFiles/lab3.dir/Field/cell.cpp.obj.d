@@ -1,5 +1,5 @@
 CMakeFiles/lab3.dir/Field/cell.cpp.obj: \
- C:\Users\losto\myrepo\lab4\Field\cell.cpp \
+ C:\Users\losto\myrepo\lab5\Field\cell.cpp \
  C:/msys64/mingw64/include/c++/12.2.0/iostream \
  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -130,6 +130,6 @@ CMakeFiles/lab3.dir/Field/cell.cpp.obj: \
  C:/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/12.2.0/istream \
  C:/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
- C:\Users\losto\myrepo\lab4\Field\cell.hpp \
- C:/Users/losto/myrepo/lab4/events/Event.hpp \
- C:/Users/losto/myrepo/lab4/player.hpp
+ C:\Users\losto\myrepo\lab5\Field\cell.hpp \
+ C:/Users/losto/myrepo/lab5/events/Event.hpp \
+ C:/Users/losto/myrepo/lab5/player.hpp
