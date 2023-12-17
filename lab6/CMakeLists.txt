@@ -28,23 +28,23 @@ add_executable(OOP main.cpp
         Events/Teleport.h
         Events/FieldEvent.cpp
         Events/FieldEvent.h
-        GameExecution/GameManager.cpp
-        GameExecution/GameManager.h
+        Games/GameManager.cpp
+        Games/GameManager.h
         Field/ShowField.cpp
         Field/ShowField.h
-        GameExecution/ReadFile.cpp
-        GameExecution/ReadFile.h
-        GameExecution/ConsoleCmdR.cpp
-        GameExecution/ConsoleCmdR.h
-        Observer/Observer.cpp
-        Observer/Observer.h
-        Observer/Monitor.h
-        Observer/MonitorStats.cpp
-        Observer/MonitorStats.h
-        Observer/MonitorCoordinates.cpp
-        Observer/MonitorCoordinates.h
-        Observer/MonitorGameState.cpp
-        Observer/MonitorGameState.h
+        Games/ReadFile.cpp
+        Games/ReadFile.h
+        Games/ConsoleCmdR.cpp
+        Games/ConsoleCmdR.h
+        View/Observer.cpp
+        View/Observer.h
+        View/Monitor.h
+        View/MonitorStats.cpp
+        View/MonitorStats.h
+        View/MonitorCoordinates.cpp
+        View/MonitorCoordinates.h
+        View/MonitorGameState.cpp
+        View/MonitorGameState.h
         Logging/Message.h
         Logging/Message.cpp
         Logging/PlayerWon.cpp

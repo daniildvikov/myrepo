@@ -1,137 +1,137 @@
 [
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\main.cpp.obj -c C:\\Users\\losto\\OOP\\main.cpp",
-  "file": "C:/Users/losto/OOP/main.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\main.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\main.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/main.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Player\\Player.cpp.obj -c C:\\Users\\losto\\OOP\\Player\\Player.cpp",
-  "file": "C:/Users/losto/OOP/Player/Player.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Player\\Player.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Player\\Player.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Player/Player.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Control\\Controller.cpp.obj -c C:\\Users\\losto\\OOP\\Control\\Controller.cpp",
-  "file": "C:/Users/losto/OOP/Control/Controller.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Control\\Controller.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Control\\Controller.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Control/Controller.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Field\\Cell.cpp.obj -c C:\\Users\\losto\\OOP\\Field\\Cell.cpp",
-  "file": "C:/Users/losto/OOP/Field/Cell.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Field\\Cell.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Field\\Cell.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Field/Cell.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Field\\Field.cpp.obj -c C:\\Users\\losto\\OOP\\Field\\Field.cpp",
-  "file": "C:/Users/losto/OOP/Field/Field.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Field\\Field.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Field\\Field.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Field/Field.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Events\\Heal.cpp.obj -c C:\\Users\\losto\\OOP\\Events\\Heal.cpp",
-  "file": "C:/Users/losto/OOP/Events/Heal.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Events\\Heal.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Events\\Heal.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Events/Heal.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Field\\FieldBuilder.cpp.obj -c C:\\Users\\losto\\OOP\\Field\\FieldBuilder.cpp",
-  "file": "C:/Users/losto/OOP/Field/FieldBuilder.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Field\\FieldBuilder.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Field\\FieldBuilder.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Field/FieldBuilder.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Events\\PlayerEvent.cpp.obj -c C:\\Users\\losto\\OOP\\Events\\PlayerEvent.cpp",
-  "file": "C:/Users/losto/OOP/Events/PlayerEvent.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Events\\PlayerEvent.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Events\\PlayerEvent.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Events/PlayerEvent.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Events\\Coin.cpp.obj -c C:\\Users\\losto\\OOP\\Events\\Coin.cpp",
-  "file": "C:/Users/losto/OOP/Events/Coin.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Events\\Coin.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Events\\Coin.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Events/Coin.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Events\\Enemy.cpp.obj -c C:\\Users\\losto\\OOP\\Events\\Enemy.cpp",
-  "file": "C:/Users/losto/OOP/Events/Enemy.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Events\\Enemy.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Events\\Enemy.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Events/Enemy.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Events\\Teleport.cpp.obj -c C:\\Users\\losto\\OOP\\Events\\Teleport.cpp",
-  "file": "C:/Users/losto/OOP/Events/Teleport.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Events\\Teleport.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Events\\Teleport.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Events/Teleport.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Events\\FieldEvent.cpp.obj -c C:\\Users\\losto\\OOP\\Events\\FieldEvent.cpp",
-  "file": "C:/Users/losto/OOP/Events/FieldEvent.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Events\\FieldEvent.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Events\\FieldEvent.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Events/FieldEvent.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\GameExecution\\GameManager.cpp.obj -c C:\\Users\\losto\\OOP\\GameExecution\\GameManager.cpp",
-  "file": "C:/Users/losto/OOP/GameExecution/GameManager.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Games\\GameManager.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Games\\GameManager.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Games/GameManager.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Field\\ShowField.cpp.obj -c C:\\Users\\losto\\OOP\\Field\\ShowField.cpp",
-  "file": "C:/Users/losto/OOP/Field/ShowField.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Field\\ShowField.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Field\\ShowField.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Field/ShowField.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\GameExecution\\ReadFile.cpp.obj -c C:\\Users\\losto\\OOP\\GameExecution\\ReadFile.cpp",
-  "file": "C:/Users/losto/OOP/GameExecution/ReadFile.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Games\\ReadFile.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Games\\ReadFile.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Games/ReadFile.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\GameExecution\\ConsoleCmdR.cpp.obj -c C:\\Users\\losto\\OOP\\GameExecution\\ConsoleCmdR.cpp",
-  "file": "C:/Users/losto/OOP/GameExecution/ConsoleCmdR.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Games\\ConsoleCmdR.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Games\\ConsoleCmdR.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Games/ConsoleCmdR.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Observer\\Observer.cpp.obj -c C:\\Users\\losto\\OOP\\Observer\\Observer.cpp",
-  "file": "C:/Users/losto/OOP/Observer/Observer.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\View\\Observer.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\View\\Observer.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/View/Observer.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Observer\\MonitorStats.cpp.obj -c C:\\Users\\losto\\OOP\\Observer\\MonitorStats.cpp",
-  "file": "C:/Users/losto/OOP/Observer/MonitorStats.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\View\\MonitorStats.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\View\\MonitorStats.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/View/MonitorStats.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Observer\\MonitorCoordinates.cpp.obj -c C:\\Users\\losto\\OOP\\Observer\\MonitorCoordinates.cpp",
-  "file": "C:/Users/losto/OOP/Observer/MonitorCoordinates.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\View\\MonitorCoordinates.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\View\\MonitorCoordinates.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/View/MonitorCoordinates.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Observer\\MonitorGameState.cpp.obj -c C:\\Users\\losto\\OOP\\Observer\\MonitorGameState.cpp",
-  "file": "C:/Users/losto/OOP/Observer/MonitorGameState.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\View\\MonitorGameState.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\View\\MonitorGameState.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/View/MonitorGameState.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Logging\\Message.cpp.obj -c C:\\Users\\losto\\OOP\\Logging\\Message.cpp",
-  "file": "C:/Users/losto/OOP/Logging/Message.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Logging\\Message.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Logging\\Message.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Logging/Message.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Logging\\PlayerWon.cpp.obj -c C:\\Users\\losto\\OOP\\Logging\\PlayerWon.cpp",
-  "file": "C:/Users/losto/OOP/Logging/PlayerWon.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Logging\\PlayerWon.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Logging\\PlayerWon.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Logging/PlayerWon.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Logging\\MessageHandler.cpp.obj -c C:\\Users\\losto\\OOP\\Logging\\MessageHandler.cpp",
-  "file": "C:/Users/losto/OOP/Logging/MessageHandler.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Logging\\MessageHandler.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Logging\\MessageHandler.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Logging/MessageHandler.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Logging\\PlayerLost.cpp.obj -c C:\\Users\\losto\\OOP\\Logging\\PlayerLost.cpp",
-  "file": "C:/Users/losto/OOP/Logging/PlayerLost.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Logging\\PlayerLost.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Logging\\PlayerLost.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Logging/PlayerLost.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Logging\\GameStarted.cpp.obj -c C:\\Users\\losto\\OOP\\Logging\\GameStarted.cpp",
-  "file": "C:/Users/losto/OOP/Logging/GameStarted.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Logging\\GameStarted.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Logging\\GameStarted.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Logging/GameStarted.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Logging\\ValidCommandPressed.cpp.obj -c C:\\Users\\losto\\OOP\\Logging\\ValidCommandPressed.cpp",
-  "file": "C:/Users/losto/OOP/Logging/ValidCommandPressed.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Logging\\ValidCommandPressed.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Logging\\ValidCommandPressed.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Logging/ValidCommandPressed.cpp"
 },
 {
-  "directory": "C:/Users/losto/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Logging\\InvalidCommandPressed.cpp.obj -c C:\\Users\\losto\\OOP\\Logging\\InvalidCommandPressed.cpp",
-  "file": "C:/Users/losto/OOP/Logging/InvalidCommandPressed.cpp"
+  "directory": "C:/Users/losto/myrepo/lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\OOP.dir\\Logging\\InvalidCommandPressed.cpp.obj -c C:\\Users\\losto\\myrepo\\lab6\\Logging\\InvalidCommandPressed.cpp",
+  "file": "C:/Users/losto/myrepo/lab6/Logging/InvalidCommandPressed.cpp"
 }
 ]

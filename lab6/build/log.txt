@@ -1,0 +1,40 @@
+New game started! Field size: [10,10]
+Player on [0,0]
+
+Key: d pressed. Command: Right
+
+Key: d pressed. Command: Right
+
+Key: d pressed. Command: Right
+
+Key: d pressed. Command: Right
+
+Key: d pressed. Command: Right
+
+Key: d pressed. Command: Right
+
+Key: d pressed. Command: Right
+
+Key: d pressed. Command: Right
+
+Key: d pressed. Command: Right
+
+Key: s pressed. Command: Down
+
+Key: s pressed. Command: Down
+
+Key: s pressed. Command: Down
+
+Key: s pressed. Command: Down
+
+Key: s pressed. Command: Down
+
+Key: s pressed. Command: Down
+
+Key: s pressed. Command: Down
+
+Key: s pressed. Command: Down
+
+Key: s pressed. Command: Down
+
+Player won with: 50hp, 20 scores
