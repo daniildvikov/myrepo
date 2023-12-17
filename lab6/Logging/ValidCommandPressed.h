@@ -1,5 +1,5 @@
 #include "Message.h"
-#include "../GameExecution/ReadFile.h"
+#include "../Games/ReadFile.h"
 
 #ifndef OOP_VALIDCOMMANDPRESSED_H
 #define OOP_VALIDCOMMANDPRESSED_H

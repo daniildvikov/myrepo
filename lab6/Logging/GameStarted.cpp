@@ -1,4 +1,3 @@
-
 #include "GameStarted.h"
 
 GameStarted::GameStarted(Field &field): field(field) {}
